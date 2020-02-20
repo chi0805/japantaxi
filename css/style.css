@@ -1,0 +1,10 @@
+.header {
+    height: 120px;
+}
+a.nav-logo {
+    line-height: 120px;
+    margin: 0 30px;
+}
+img.nav-logo {
+    height: 35px;
+}
