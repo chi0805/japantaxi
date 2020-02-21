@@ -1,10 +1,50 @@
-.header {
-    height: 120px;
+body {
+    font-family: 'Karla' ;
 }
+
+a {
+    text-decoration: none;
+}
+.header {
+    height: 100px;
+}
+
 a.nav-logo {
-    line-height: 120px;
+    line-height: 100px;
     margin: 0 30px;
 }
+
 img.nav-logo {
-    height: 35px;
+    width: 11%;
+    vertical-align: middle;
+}
+
+.global-nav {
+    float: right;
+    line-height: 100px;
+    margin-right: 50px
+}
+
+.global-nav-part {
+    float: left;
+    margin-left: 38px;
+    font-size: 1.1rem;
+    letter-spacing: 0.005em;
+}
+
+.eye-catch {
+    margin: 0 auto;
+    width: 1250px;
+    height: 500px;
+}
+
+.background-image {
+    background-image: url('../images/hero01-sp.jpg');
+    background-size: cover;
+    width: 1250px;
+    height: 550px;
+}
+
+.eyecatch-logo {
+    width: 200px;
 }
