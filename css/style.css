@@ -34,15 +34,15 @@ img.nav-logo {
 
 .eye-catch {
     margin: 0 auto;
-    width: 1250px;
-    height: 500px;
+    width: 1500px;
+    height: 800px;
 }
 
 .background-image {
-    background-image: url('../images/hero01-sp.jpg');
+    background-image: url('../images/hero01.jpg');
     background-size: cover;
-    width: 1250px;
-    height: 550px;
+    width: 1500px;
+    height: 800px;
 }
 
 .eyecatch-logo {
