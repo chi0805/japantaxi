@@ -62,6 +62,11 @@
 「機会」に変えていくこと。<br/>
 今現在の移動も、未来の移動でも、喜びに感じる体験を提供し、<br/>
 「⼈を幸せにすること。」を私たちは⽬指しています。<br/>
+            <div class="mission-nav">
+                <a href="#">
+                    <p>Our Misiion</p>
+                </a>
+            </div>
         </div>
     </section>
 

@@ -1,10 +1,16 @@
 body {
     font-family: 'Karla' ;
+    color: #182F60;
 }
 
 a {
     text-decoration: none;
 }
+
+a:link, a:visited, a:hover, a:active {
+  color: #182F60;
+}
+
 .header {
     height: 100px;
 }
@@ -15,21 +21,22 @@ a.nav-logo {
 }
 
 img.nav-logo {
-    width: 11%;
+    width: 9.0%;
     vertical-align: middle;
 }
 
 .global-nav {
     float: right;
     line-height: 100px;
-    margin-right: 50px
+    margin-right: 50px;
+    height: 16px;
 }
 
 .global-nav-part {
     float: left;
     margin-left: 38px;
     font-size: 1.1rem;
-    letter-spacing: 0.005em;
+    letter-spacing: 0.0006em;
 }
 
 .eye-catch {
@@ -40,8 +47,8 @@ img.nav-logo {
 .background-image {
     background-image: url('../images/hero01.jpg');
     background-size: cover;
-    width: 1500px;
-    height: 700px;
+    width: 1480px;
+    height: 690px;
 }
 
 .eyecatch-logo {
@@ -91,7 +98,5 @@ img.nav-logo {
 .mission-description {
     margin: 130px 150px;
     line-height: 3.0rem;
-    color: #182F60;
     font-weight: 700;
-
 }
