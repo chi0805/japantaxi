@@ -35,7 +35,6 @@ img.nav-logo {
 .eye-catch {
     margin: 0 auto;
     width: 1500px;
-    height: 800px;
 }
 
 .background-image {
@@ -61,4 +60,38 @@ img.nav-logo {
 
 .logo03 {
     height: 80px;
+}
+
+.mission-nav {
+    float: right;
+    margin-right: 50px;
+    height: 200px;
+}
+
+.mission-nav > p {
+    font-size: 1.1rem;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.mission-nav > p::after {
+    content: '>';
+    padding: 10px;
+}
+
+.mission {
+    margin-top: 200px;
+    height: 514px;
+    width: 885px;
+    position: absolute;
+    left: 678px;
+    border: 1px solid #C0C0C0;
+}
+
+.mission-description {
+    margin: 130px 150px;
+    line-height: 3.0rem;
+    color: #182F60;
+    font-weight: 700;
+
 }
