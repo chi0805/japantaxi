@@ -93,6 +93,23 @@ img.nav-logo {
     position: absolute;
     left: 678px;
     border: 1px solid #C0C0C0;
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+.mission::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url('../images/bg_right.svg');
+    background-repeat: no-repeat;
+    height: 715px;
+    width: 660px;
+    background-size: cover;
+    position: absolute;
+    left: 500px;
+    top: -100px;
+    z-index: -1;
 }
 
 .mission-description {
