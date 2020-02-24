@@ -1,3 +1,6 @@
+/* --------------------------*/
+/*共通
+/*----------------------------*/
 body {
     font-family: 'Karla' ;
     color: #182F60;
@@ -11,6 +14,9 @@ a:link, a:visited, a:hover, a:active {
   color: #182F60;
 }
 
+/* --------------------------*/
+/*ヘッダー
+/*----------------------------*/
 .header {
     height: 100px;
 }
@@ -39,6 +45,9 @@ img.nav-logo {
     letter-spacing: 0.0006em;
 }
 
+/* --------------------------*/
+/*アイキャッチ
+/*----------------------------*/
 .eye-catch {
     margin: 0 auto;
     width: 1500px;
@@ -69,6 +78,10 @@ img.nav-logo {
     height: 80px;
 }
 
+
+/* --------------------------*/
+/*ミッション
+/*----------------------------*/
 .mission-nav {
     float: right;
     margin-right: 50px;
@@ -87,9 +100,14 @@ img.nav-logo {
 }
 
 .mission {
+    width: 100%;
+    height: 900px;
+}
+
+.mission-main {
     margin-top: 200px;
     height: 514px;
-    width: 885px;
+    width: 86px;
     position: absolute;
     left: 678px;
     border: 1px solid #C0C0C0;
@@ -97,9 +115,10 @@ img.nav-logo {
     background-color: #ffffff;
 }
 
-.mission::before {
+.mission-main::before {
     content: '';
     display: block;
+    width: 100%;
     position: absolute;
     background-image: url('../images/bg_right.svg');
     background-repeat: no-repeat;
@@ -107,9 +126,10 @@ img.nav-logo {
     width: 660px;
     background-size: cover;
     position: absolute;
-    left: 500px;
+    left: 330px;
     top: -100px;
     z-index: -1;
+    overflow: hidden;
 }
 
 .mission-description {
@@ -117,3 +137,40 @@ img.nav-logo {
     line-height: 3.0rem;
     font-weight: 700;
 }
+
+
+/* --------------------------*/
+/*サービス
+/*----------------------------*/
+
+.service {
+    padding: 10px 220px;
+}
+
+.service-list {
+    padding: 50px 0;
+}
+
+.service-title-main {
+    font-size: 4.0rem;
+}
+
+.service-item {
+    float: left;
+    height: 335px;
+    width: 386px;
+    border: 1px solid #E1E2E9;
+}
+
+.item-left {
+    margin: 0 20px 0 0;;
+}
+
+.item-center{
+    margin: 0 20px 0 20px;
+}
+
+.item-right {
+    margin: 0 0 0 20px;
+}
+
