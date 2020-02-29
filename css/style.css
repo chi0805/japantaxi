@@ -4,6 +4,8 @@
 body {
     font-family: 'Karla' ;
     color: #182F60;
+    display: block;
+    width: auto;
 }
 
 a {
@@ -49,25 +51,24 @@ img.nav-logo {
 /*アイキャッチ
 /*----------------------------*/
 .eye-catch {
-    margin: 0 auto;
-    width: 1500px;
+    height: 672px;
 }
 
 .background-image {
+    height: 572px;
+    margin: 0 100px 100px 100px;
     background-image: url('../images/hero01.jpg');
     background-size: cover;
-    width: 1480px;
-    height: 690px;
 }
 
 .eyecatch-logo {
     height: 90px;
-    margin-left: 70px;
+    margin-left: 60px;
     vertical-align: top;
 }
 
 .logo01 { 
-    margin-top: 380px;
+    margin-top: 250px;
 }
 
 .logo02 .logo03 {
@@ -82,6 +83,7 @@ img.nav-logo {
 /* --------------------------*/
 /*ミッション
 /*----------------------------*/
+/*
 .mission-nav {
     float: right;
     margin-right: 50px;
@@ -137,12 +139,12 @@ img.nav-logo {
     line-height: 3.0rem;
     font-weight: 700;
 }
-
+*/
 
 /* --------------------------*/
 /*サービス
 /*----------------------------*/
-
+/*
 .service {
     padding: 10px 220px;
 }
@@ -173,4 +175,4 @@ img.nav-logo {
 .item-right {
     margin: 0 0 0 20px;
 }
-
+*/
