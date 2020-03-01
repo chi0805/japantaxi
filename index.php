@@ -55,23 +55,24 @@
         </div>
     </section>
     <section class="mission">
-        <div class="mission-main">
-            <div class="mission-description">
-移動に関わるサービスの提供を通じて、<br/>
-機会を全ての⼈々に対して等しく提供すること。<br/>
-加えて、移動の時間そのものも｢コスト｣ではなく<br/>
-｢機会｣に変えていくこと。<br/>
-今現在の移動も、未来の移動でも、喜びに感じる体験を提供し、<br/>
-｢⼈を幸せにすること。｣を私たちは⽬指しています。<br/>
-            </div>
-            <div class="mission-nav">
-                <a href="#">
-                    <p class="mission-nav-title">Our Mission</p>
-                </a>
+        <div class="mission-container">
+            <div class="mission-main">
+                <div class="mission-description">
+移動に関    わるサービスの提供を通じて、<br/>
+機会を全    ての⼈々に対して等しく提供すること。<br/>
+加えて、    移動の時間そのものも｢コスト｣ではなく<br/>
+｢機会｣に    変えていくこと。<br/>
+今現在の    移動も、未来の移動でも、喜びに感じる体験を提供し、<br/>
+｢⼈を幸    せにすること。｣を私たちは⽬指しています。<br/>
+                </div>
+                <div class="mission-nav">
+                    <a href="#">
+                        <p class="mission-nav-title">Our Mission</p>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
-<!--
     <section class="service">
         <div class="service-title">
             <p class="service-title-main">Services</p>
@@ -80,30 +81,41 @@
             <div class="service-list">
                 <div class="service-item item-left">
                     <img class="service-image" src="./images/service_app.jpg" alt="service_app">
-                    <p class="service-item-title">「JapanTaxi」アプリ</p>
+                    <div class="service-item-title">
+                        <p><a href="#">「JapanTaxi」アプリ</a></p>
+                    </div>
                 </div>
                 <div class="service-item item-center">
                     <img class="service-image" src="./images/service_wallet.jpg" alt="service_wallet">
-                    <p class="service-item-title">JapanTaxi Wallet</p>
+                    <div class="service-item-title">
+                        <p><a href="#">JapanTaxi Wallet</a></p>
+                    </div>
                 </div>
                 <div class="service-item item-right">
                     <img class="service-image" src="./images/service_business.jpg" alt="service_business">
-                    <p class="service-item-title">JapanTaxi BUSINESS</p>
+                    <div class="service-item-title">
+                        <p><a href="#">JapanTaxi BUSINESS</a></p>
+                    </div>
                 </div>
                 <div class="service-item item-left">
                     <img class="service-image" src="./images/service_tablet-1.jpg" alt="service_tablet-1">
-                    <p class="service-item-title">JapanTaxiタブレット</p>
+                    <div class="service-item-title">
+                        <p><a href="#">JapanTaxiタブレット</a></p>
+                    </div>
                 </div>
                 <div class="service-item item-center">
                     <img class="service-image" src="./images/service_recorder.jpg" alt="service_recorder">
-                    <p class="service-item-title">JapanTaxiドライブレコーダー4</p>
+                    <div class="service-item-title">
+                        <p><a href="#">JapanTaxiドライブレコーダー4</a></p>
+                    </div>
                 </div>
                 <div class="service-item item-right">
                     <img class="service-image" src="./images/service_dataplatform.jpg" alt="service_dataplatform">
-                    <p class="service-item-title">JapanTaxi Data Platform</p>
+                    <div class="service-item-title">
+                        <p><a href="#">JapanTaxi Data Platform</a></p>
+                    </div>
                 </div>
             </div>
     </section>
--->
 </body>
 </html>

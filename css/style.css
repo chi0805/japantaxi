@@ -87,11 +87,16 @@ img.nav-logo {
 
 .mission {
     width: 100%;
-    height: 900px;
+    height: 715px;
+}
+
+.mission-container {
+    height: 100%;
 }
 
 .mission-main {
     width: 53%;
+    margin-top: 100px;
     padding: 112px 0 10px;
     position: absolute;
     font-size: 18px;
@@ -101,19 +106,17 @@ img.nav-logo {
     left: 580px;
 }
 
-.mission-main::before {
+.mission-container::before {
     content: '';
-    display: block;
-    width: 100%;
+    display: inline-block;
     position: absolute;
+    right: -180px;
     background-image: url('../images/bg_right.svg');
     background-repeat: no-repeat;
+    background-position: left top;
     height: 715px;
     width: 660px;
     background-size: cover;
-    position: absolute;
-    left: 400px;
-    top: -100px;
     z-index: -1;
     overflow: hidden;
 }
@@ -146,13 +149,12 @@ img.nav-logo {
 /* --------------------------*/
 /*サービス
 /*----------------------------*/
-/*
 .service {
-    padding: 10px 220px;
+    padding: 100px;
 }
 
 .service-list {
-    padding: 50px 0;
+    padding: 10px 0;
 }
 
 .service-title-main {
@@ -162,19 +164,35 @@ img.nav-logo {
 .service-item {
     float: left;
     height: 335px;
-    width: 386px;
+    width: 31%;
     border: 1px solid #E1E2E9;
 }
 
 .item-left {
-    margin: 0 20px 0 0;;
+    margin: 40px 20px 0 0;
 }
 
 .item-center{
-    margin: 0 20px 0 20px;
+    margin: 40px 20px 0 20px;
 }
 
 .item-right {
-    margin: 0 0 0 20px;
+    margin: 40px 0 0 20px;
 }
-*/
+
+.service-image {
+    width: 100%;
+}
+
+.service-item-title {
+    display: inline-block;
+    margin-left: 20px;
+}
+.service-item-title > p{
+    height: 95px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 95px;
+}
+
+
