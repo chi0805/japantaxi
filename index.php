@@ -48,29 +48,30 @@
             <img class="eyecatch-logo logo02" src="./images/hero_logo02.svg" alt="introduce"><br/>
             <img class="eyecatch-logo logo03" src="./images/hero_logo03.svg" alt="introduce"><br/>
         </div>
+        <div class="mission-nav">
+            <a href="#">
+                <p class="mission-nav-title">Our Mission</p>
+            </a>
+        </div>
     </section>
-    <div class="mission-nav">
-        <a href="#">
-            <p>Our Misiion</p>
-        </a>
-    </div>
     <section class="mission">
         <div class="mission-main">
             <div class="mission-description">
 移動に関わるサービスの提供を通じて、<br/>
 機会を全ての⼈々に対して等しく提供すること。<br/>
-加えて、移動の時間そのものも「コスト」ではなく<br/>
-「機会」に変えていくこと。<br/>
+加えて、移動の時間そのものも｢コスト｣ではなく<br/>
+｢機会｣に変えていくこと。<br/>
 今現在の移動も、未来の移動でも、喜びに感じる体験を提供し、<br/>
-「⼈を幸せにすること。」を私たちは⽬指しています。<br/>
-                <div class="mission-nav">
-                    <a href="#">
-                        <p>Our Misiion</p>
-                    </a>
-                </div>
+｢⼈を幸せにすること。｣を私たちは⽬指しています。<br/>
+            </div>
+            <div class="mission-nav">
+                <a href="#">
+                    <p class="mission-nav-title">Our Mission</p>
+                </a>
             </div>
         </div>
     </section>
+<!--
     <section class="service">
         <div class="service-title">
             <p class="service-title-main">Services</p>
@@ -103,5 +104,6 @@
                 </div>
             </div>
     </section>
+-->
 </body>
 </html>

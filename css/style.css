@@ -2,10 +2,11 @@
 /*共通
 /*----------------------------*/
 body {
-    font-family: 'Karla' ;
+    font-family: 'Karla', "Yu Gothic Medium", "游ゴシック Medium", YuGothic, 游ゴシック体, "ヒラギノ角ゴ Pro W3", メイリオ, sans-serif; ;
     color: #182F60;
     display: block;
     width: auto;
+    overflow-x: hidden;
 }
 
 a {
@@ -56,7 +57,7 @@ img.nav-logo {
 
 .background-image {
     height: 572px;
-    margin: 0 100px 100px 100px;
+    margin: 0 100px;
     background-image: url('../images/hero01.jpg');
     background-size: cover;
 }
@@ -83,23 +84,6 @@ img.nav-logo {
 /* --------------------------*/
 /*ミッション
 /*----------------------------*/
-/*
-.mission-nav {
-    float: right;
-    margin-right: 50px;
-    height: 200px;
-}
-
-.mission-nav > p {
-    font-size: 1.1rem;
-    vertical-align: middle;
-    font-weight: 700;
-}
-
-.mission-nav > p::after {
-    content: '>';
-    padding: 10px;
-}
 
 .mission {
     width: 100%;
@@ -107,14 +91,14 @@ img.nav-logo {
 }
 
 .mission-main {
-    margin-top: 200px;
-    height: 514px;
-    width: 86px;
+    width: 53%;
+    padding: 112px 0 10px;
     position: absolute;
-    left: 678px;
-    border: 1px solid #C0C0C0;
+    font-size: 18px;
+    border: 1px solid #E0E2E9;
     opacity: 1;
-    background-color: #ffffff;
+    background-color: #fdfdff;
+    left: 580px;
 }
 
 .mission-main::before {
@@ -128,18 +112,36 @@ img.nav-logo {
     width: 660px;
     background-size: cover;
     position: absolute;
-    left: 330px;
+    left: 400px;
     top: -100px;
     z-index: -1;
     overflow: hidden;
 }
 
 .mission-description {
-    margin: 130px 150px;
+    padding: 0 15%;
     line-height: 3.0rem;
     font-weight: 700;
+    text-align: left;
 }
-*/
+
+.mission-nav {
+    margin-right: 50px;
+}
+
+.mission-nav-title {
+    font-size: 18px;
+    vertical-align: middle;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: -0.36px;
+    float: right;
+}
+
+.mission-nav-title::after {
+    content: '>';
+    padding: 10px;
+}
 
 /* --------------------------*/
 /*サービス
