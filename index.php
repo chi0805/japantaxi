@@ -78,44 +78,55 @@
             <p class="service-title-main">Services</p>
             <p class="service-title-sub">わたしたちのサービス</p>
         </div>
-            <div class="service-list">
-                <div class="service-item item-left">
-                    <img class="service-image" src="./images/service_app.jpg" alt="service_app">
-                    <div class="service-item-title">
-                        <p><a href="#">「JapanTaxi」アプリ</a></p>
-                    </div>
-                </div>
-                <div class="service-item item-center">
-                    <img class="service-image" src="./images/service_wallet.jpg" alt="service_wallet">
-                    <div class="service-item-title">
-                        <p><a href="#">JapanTaxi Wallet</a></p>
-                    </div>
-                </div>
-                <div class="service-item item-right">
-                    <img class="service-image" src="./images/service_business.jpg" alt="service_business">
-                    <div class="service-item-title">
-                        <p><a href="#">JapanTaxi BUSINESS</a></p>
-                    </div>
-                </div>
-                <div class="service-item item-left">
-                    <img class="service-image" src="./images/service_tablet-1.jpg" alt="service_tablet-1">
-                    <div class="service-item-title">
-                        <p><a href="#">JapanTaxiタブレット</a></p>
-                    </div>
-                </div>
-                <div class="service-item item-center">
-                    <img class="service-image" src="./images/service_recorder.jpg" alt="service_recorder">
-                    <div class="service-item-title">
-                        <p><a href="#">JapanTaxiドライブレコーダー4</a></p>
-                    </div>
-                </div>
-                <div class="service-item item-right">
-                    <img class="service-image" src="./images/service_dataplatform.jpg" alt="service_dataplatform">
-                    <div class="service-item-title">
-                        <p><a href="#">JapanTaxi Data Platform</a></p>
-                    </div>
+        <div class="service-list">
+            <div class="service-item item-left">
+                <img class="service-image" src="./images/service_app.jpg" alt="service_app">
+                <div class="service-item-title">
+                    <p><a href="#">「JapanTaxi」アプリ</a></p>
                 </div>
             </div>
+            <div class="service-item item-center">
+                <img class="service-image" src="./images/service_wallet.jpg" alt="service_wallet">
+                <div class="service-item-title">
+                    <p><a href="#">JapanTaxi Wallet</a></p>
+                </div>
+            </div>
+            <div class="service-item item-right">
+                <img class="service-image" src="./images/service_business.jpg" alt="service_business">
+                <div class="service-item-title">
+                    <p><a href="#">JapanTaxi BUSINESS</a></p>
+                </div>
+            </div>
+            <div class="service-item item-left">
+                <img class="service-image" src="./images/service_tablet-1.jpg" alt="service_tablet-1">
+                <div class="service-item-title">
+                    <p><a href="#">JapanTaxiタブレット</a></p>
+                </div>
+            </div>
+            <div class="service-item item-center">
+                <img class="service-image" src="./images/service_recorder.jpg" alt="service_recorder">
+                <div class="service-item-title">
+                    <p><a href="#">JapanTaxiドライブレコーダー</a></p>
+                </div>
+            </div>
+            <div class="service-item item-right">
+                <img class="service-image" src="./images/service_dataplatform.jpg" alt="service_dataplatform">
+                <div class="service-item-title">
+                    <p><a href="#">JapanTaxi Data Platform</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+    <section class="news">
+        <div class="news-container">
+            <div class="news-main">
+                <div class="news-title">
+                    <p class="news-title-main">News</p>
+                    <p class="news-title-sub">新着情報</p>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
