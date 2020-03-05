@@ -240,20 +240,25 @@ img.nav-logo {
 }
 
 .news-title-main {
-    font-size: 4.0rem;
+    font-size: 3.7rem;
+    margin-bottom: 10px;
+}
+
+.news-title-sub {
+    font-size: 14px;
 }
 
 .news-head {
     display: inline-block;
-    width: 280px;
+    width: 300px;
     position: relative;
     float: left;
 }
 
 .more-button {
     border: 1px solid #182F60;
-    padding: 10px;
-    width: 90%;
+    padding: 18px 10px;
+    width: 65%;
     position: absolute;
     bottom: 0;
 }
@@ -262,11 +267,20 @@ img.nav-logo {
     display: inline-block;
     margin: auto;
     font-size: 18px;
+    height: 100%;
+    width: 90%;
+    text-align: center;
+}
+
+.more-button::after {
+    content: '>';
+    width: 10%;
+    font-weight; 700;
 }
 
 .news-list{
     display: inline-block;
-    width: calc(100% - 280px);
+    width: calc(100% - 300px);
     float: left;
     border-left: 1px solid #E0E2E9;
     padding-left: 80px;
@@ -279,6 +293,7 @@ img.nav-logo {
  .news-datetime {
      display: inline-block;
      font-size: 18px;
+     height: 100%;
  }
 
  .news-item-category {
@@ -298,5 +313,5 @@ img.nav-logo {
  }
 
  .news-item-head {
-     margin-bottom: 20px;
+     height: 32px;
  }
