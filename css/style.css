@@ -204,12 +204,12 @@ img.nav-logo {
 /*----------------------------*/
 .news {
     width: 100%;
-    height: 656px;
+    height: 800px;
 }
 
 .news-container {
     width: 100%;
-    height: 100%;
+    height: 656px;
 }
 
 .news-container::before {
@@ -257,7 +257,7 @@ img.nav-logo {
 
 .more-button {
     border: 1px solid #182F60;
-    padding: 18px 10px;
+    padding: 17px 10px;
     width: 65%;
     position: absolute;
     bottom: 0;
@@ -315,3 +315,26 @@ img.nav-logo {
  .news-item-head {
      height: 32px;
  }
+
+/* --------------------------*/
+/* Recruit
+/*----------------------------*/
+.recruit {
+    width: 100%;
+    height: 560px;
+}
+
+.recruit-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.recruit-title {
+    height: 100%;
+}
+
+.recruit-title p {
+    writing-mode: vertical-rl;
+    font-size: 50px;
+}
