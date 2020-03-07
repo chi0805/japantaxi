@@ -187,5 +187,50 @@
         </div>
         <div class="concept-image"><img src="./images/pic_taxi.jpg" alt=""></div>
     </section>
+    <section class="bottom-menu">
+        <div class="head-menu">
+            <div class="bottom-menu-section">
+                <h3>Company</h3>
+                <div class="bottom-menu-item">
+                    <a href="#">ミッション</a><br/>
+                    <a href="#">取締役会</a><br/>
+                    <a href="#">会社概要</a><br/>
+                    <a href="#">沿革</a><br/>
+                </div>
+            </div>
+            <div class="bottom-menu-section">
+                <h3>Services</h3>
+                <div class="bottom-menu-item">
+                    <a href="#">「JapanTaxi」アプリ</a><br/>
+                    <a href="#">JapanTaxi Wallet</a><br/>
+                    <a href="#">JapanTaxi BUSINESS</a><br/>
+                    <a href="#">JapanTaxiタブレット</a><br/>
+                    <a href="#">JapanTaxiドライブレコーダー4</a><br/>
+                    <a href="#">JapanTaxi Data Platform</a><br/>
+                </div>
+            </div>
+            <div class="bottom-menu-section">
+                <h3>News</h3>
+                <div class="bottom-menu-item">
+                    <a href="#">お知らせ</a><br/>
+                    <a href="#">プレスリリース</a><br/>
+                </div>
+            </div>
+            <div class="bottom-menu-section">
+                <h3>Recruit</h3>
+                <div class="bottom-menu-item">
+                    <a href="#">TOP</a><br/>
+                    <a href="#">ミッション</a><br/>
+                    <a href="#">会社データ</a><br/>
+                    <a href="#">福利厚生</a><br/>
+                    <a href="#">働く環境</a><br/>
+                    <a href="#">開発者向け情報</a><br/>
+                    <a href="#">インタビュー</a><br/>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footmenu"></div>
+    </section>
 </body>
 </html>
