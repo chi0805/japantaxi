@@ -180,5 +180,12 @@
             </span>
         </div>
     </section>
+    <section class="concept">
+        <div class="concept-message">
+            <p class="english">Delivering Happiness,<br/>One Ride At a Time</p>
+            <p class="japanese">移動で人を幸せに。</p>
+        </div>
+        <div class="concept-image"><img src="./images/pic_taxi.jpg" alt=""></div>
+    </section>
 </body>
 </html>
