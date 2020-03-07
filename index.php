@@ -139,14 +139,14 @@
                             </div>
                             <div class="news-item-body">JapanTaxi株式会社は4月1日(水)から「株式会社Mobility Technologies」へ　社名も新たにモビリティの進化を牽引</div>
                         </div>
-                        <div class="news-item-2">
+                        <div class="news-item-1">
                             <div class="news-item-head">
                                 <p class="news-datetime">2020.02.04</p>
                                 <div class="news-item-category">プレスリリース</div>
                             </div>
                             <div class="news-item-body">日本交通ホールディングス、DeNA タクシー配車アプリ等に関する事業を統合　新体制で10万台規模※1、さらなる事業展開の加速へ</div>
                         </div>
-                        <div class="news-item-3">
+                        <div class="news-item-1">
                             <div class="news-item-head">
                                 <p class="news-datetime">2020.02.04</p>
                                 <div class="news-item-category">プレスリリース</div>
@@ -157,6 +157,27 @@
                 </div>
                 <div class="clear"></div>
             </div>
+        </div>
+    </section>
+    <section class="recruit">
+        <div class="recruit-container">
+            <div class="recruit-title"><p>Work With Us</p></div>
+            <div class="recruit-link-container">
+                <div class="recruit-link">
+                    <div class="title-main"><p>Recruit</p></div>
+                    <div class="title-sub"><p>採用情報</p></div>
+                    <div class="more-button"><a href="#">More</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lab">
+        <div class="lab-container">
+            <span>
+                <a href="#">
+                    <img class="lab-image" src="./images/pic_labo.jpg" alt="">
+                </a>
+            </span>
         </div>
     </section>
 </body>
