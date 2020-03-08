@@ -448,16 +448,14 @@ img.nav-logo {
 /* BottomMenu
 /*----------------------------*/
 .bottom-menu {
-    height: 660px;
+    height: 900px;
     width: 100%;
     background-color: #192E60;
     color: #FDFDFF;
-    padding: 0 100px;
 }
 
-
 .head-menu {
-    width: 100%;
+    margin: 0 100px;
 }
 
 .bottom-menu-section {
@@ -480,4 +478,32 @@ img.nav-logo {
     margin: 10px 0;
 }
 
+.footmenu {
+    height: 240px;
+    width: 100%;
+    background-color: #0F224C;
+}
 
+.footmenu-item{
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    float: left;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footmenu a {
+    display: block;
+    color: #FDFDFF;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footmenu a h3 {
+    line-height: 240px;
+}
+.footmenu-blog {
+    border-right: 1px solid #0F224C;
+}
