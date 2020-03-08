@@ -230,7 +230,10 @@
             </div>
         </div>
         <div class="clear"></div>
-        <div class="footmenu"></div>
+        <div class="footmenu">
+            <div class="footmenu-item">Blog</div>
+            <div class="footmenu-item">Contact</div>
+        </div>
     </section>
 </body>
 </html>
