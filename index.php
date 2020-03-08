@@ -239,5 +239,18 @@
             </div>
         </div>
     </section>
+    <section class="footer">
+        <div class="footer-left">
+            <div class="policy-list">
+                <div class="policy-item"><a href="#">Privacy Policy</a></div>
+                <div class="policy-item"><a href="#">Security Policy</a></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer-right">
+            <img class="company-logo" src="./images/logo_navy.svg" alt="">
+            <p class="company-name">© JapanTaxi Co.,Ltd.</p>
+        </div footer-right>
+    </section>
 </body>
 </html>
