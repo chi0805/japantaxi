@@ -231,8 +231,12 @@
         </div>
         <div class="clear"></div>
         <div class="footmenu">
-            <div class="footmenu-item">Blog</div>
-            <div class="footmenu-item">Contact</div>
+            <div class="footmenu-item footmenu-blog">
+                <a href="#"><h3>Blog</h3></a>
+            </div>
+            <div class="footmenu-item footmenu-contact">
+                <a href="#"><h3>Contact</h3></a>
+            </div>
         </div>
     </section>
 </body>
