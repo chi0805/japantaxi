@@ -246,11 +246,13 @@
                 <div class="policy-item"><a href="#">Security Policy</a></div>
             </div>
         </div>
-        <div class="clear"></div>
         <div class="footer-right">
-            <img class="company-logo" src="./images/logo_navy.svg" alt="">
-            <p class="company-name">© JapanTaxi Co.,Ltd.</p>
-        </div footer-right>
+            <div class="footer-right-wrapper">
+                <img class="company-logo" src="./images/logo_navy.svg" alt="">
+                <p class="company-name">© JapanTaxi Co.,Ltd.</p>
+            </div>
+        </div>
+        <div class="clear"></div>
     </section>
 </body>
 </html>
