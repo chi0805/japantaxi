@@ -251,8 +251,8 @@
                 <img class="company-logo" src="./images/logo_navy.svg" alt="">
                 <p class="company-name">© JapanTaxi Co.,Ltd.</p>
             </div>
+            <div class="clear"></div>
         </div>
-        <div class="clear"></div>
     </section>
 </body>
 </html>
