@@ -53,6 +53,28 @@ img.nav-logo {
     letter-spacing: 0.0006em;
 }
 
+.global-nav-part a {
+    display: block;
+}
+
+.global-nav-part a::after {
+    display: block;
+    content: "";
+    position: relative;
+    top: -35px;
+    height: 2px;
+    background: #192E60;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .3s;
+
+}
+
+.global-nav-part a:hover::after {
+    width: 100%;
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
 /* --------------------------*/
 /*アイキャッチ
 /*----------------------------*/
