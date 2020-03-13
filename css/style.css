@@ -203,6 +203,12 @@ img.nav-logo {
     height: 335px;
     width: 30%;
     border: 1px solid #E1E2E9;
+    transition: all 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 10px 10px 10px rgb(25,46,96,0.1);
 }
 
 .item-left {
