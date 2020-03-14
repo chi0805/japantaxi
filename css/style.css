@@ -305,6 +305,7 @@ img.nav-logo {
     width: 65%;
     position: absolute;
     bottom: 0;
+    transition: all ease 0.3s
 }
 
 .more-button a {
@@ -314,12 +315,22 @@ img.nav-logo {
     height: 100%;
     width: 90%;
     text-align: center;
+    transition: all ease 0.3s
 }
 
 .more-button::after {
     content: '>';
     width: 10%;
     font-weight; 700;
+}
+
+.more-button:hover {
+    background-color: #182F60;
+    color: #FDFDFF;
+}
+
+.more-button:hover a {
+    color: #FDFDFF;
 }
 
 .news-list{
