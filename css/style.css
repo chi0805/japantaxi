@@ -206,6 +206,7 @@ img.nav-logo {
     transition: all 0.3s ease;
 }
 
+
 .service-item:hover {
     transform: translate(-3px, -3px);
     box-shadow: 10px 10px 10px rgb(25,46,96,0.1);
@@ -328,36 +329,45 @@ img.nav-logo {
     border-left: 1px solid #E0E2E9;
     padding-left: 80px;
 }
- .clear {
-     clear: both;
-     height: 0;
- }
 
- .news-datetime {
-     display: inline-block;
-     font-size: 18px;
-     height: 100%;
- }
+.clear {
+    clear: both;
+    height: 0;
+}
 
- .news-item-category {
-     display: inline-block;
-     font-size: 13px;
-     margin-left: 40px;
-     padding: 3px 10px;
-     border: 1px solid #E0E2E9;
- }
+.news-item-body {
+    display: inline;
+}
 
- .news-item-body {
-     line-height: 1.9rem;
- }
+.news-item a:hover .news-item-body{
+    background: linear-gradient(transparent 95%, #192E60 0%);
+}
 
- .news-item-1 {
-     margin-bottom: 40px;
- }
+.news-datetime {
+    display: inline-block;
+    font-size: 18px;
+    height: 100%;
+}
 
- .news-item-head {
-     height: 32px;
- }
+.news-item-category {
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 40px;
+    padding: 3px 10px;
+    border: 1px solid #E0E2E9;
+}
+
+.news-item-body {
+    line-height: 1.9rem;
+}
+
+.news-item-1 {
+    margin-bottom: 40px;
+}
+
+.news-item-head {
+    height: 32px;
+}
 
 /* --------------------------*/
 /* Recruit
