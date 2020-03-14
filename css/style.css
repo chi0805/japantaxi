@@ -524,16 +524,30 @@ img.nav-logo {
 }
 
 .bottom-menu-section h3 {
+    color: #FDFDFF;
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 30px;
 }
 
+.bottom-menu-section h3 > a {
+    color: #FDFDFF;
+}
+
+.bottom-menu-item {
+    box-sizing: border-box;
+}
+
+.bottom-menu-section h3 > a:hover,
+.bottom-menu-item a span:hover {
+    border-bottom: 1px solid #FDFDFF; 
+}
 .bottom-menu-item a {
     display: block;
     color: #FDFDFF;
     font-size: 14px;
     margin: 10px 0;
+    box-sizing: border-box;
 }
 
 .footmenu {
