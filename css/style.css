@@ -15,9 +15,11 @@ a {
     text-decoration: none;
 }
 
+/*
 a:link, a:visited, a:hover, a:active {
   color: #182F60;
 }
+*/
 
 /* --------------------------*/
 /*ヘッダー
@@ -34,6 +36,11 @@ a.nav-logo {
     line-height: 100px;
     margin: 0 30px;
 }
+
+.global-nav-part a:visited {
+    color: #182F60;
+}
+
 
 img.nav-logo {
     width: 9.0%;
@@ -166,6 +173,10 @@ img.nav-logo {
     margin-right: 50px;
 }
 
+.mission-nav a:visited {
+  color: #182F60;
+}
+
 .mission-nav-title {
     font-size: 18px;
     vertical-align: middle;
@@ -206,6 +217,9 @@ img.nav-logo {
     transition: all 0.3s ease;
 }
 
+.service-item a:visited {
+    color: #182F60;
+}
 
 .service-item:hover {
     transform: translate(-3px, -3px);
@@ -283,6 +297,10 @@ img.nav-logo {
     top: -635px;
 }
 
+.news-item a:visited {
+    color: #182F60;
+}
+
 .news-title-main {
     font-size: 3.7rem;
     margin-bottom: 10px;
@@ -316,6 +334,10 @@ img.nav-logo {
     width: 90%;
     text-align: center;
     transition: all ease 0.3s
+}
+
+.more-button a:visited {
+    color: #182F60;
 }
 
 .more-button::after {
@@ -542,6 +564,7 @@ img.nav-logo {
 .bottom-menu-item a span:hover {
     border-bottom: 1px solid #FDFDFF; 
 }
+
 .bottom-menu-item a {
     display: block;
     color: #FDFDFF;
@@ -565,16 +588,44 @@ img.nav-logo {
     font-size: 20px;
 }
 
-.footmenu a {
+.footmenu-link::after {
     display: block;
-    color: #FDFDFF;
-    height: 100%;
-    text-align: center;
-    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    background: #253F7A;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: transform .3s;
+    z-index: 1;
 }
 
-.footmenu a h3 {
-    line-height: 240px;
+.footmenu-link:hover::after {
+    transform-origin: left top;
+    transform: scale(1, 1);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.footmenu-link {
+    display: flex;
+    color: #FDFDFF;
+    align-items: center;
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footmenu-link div {
+    z-index: 99999;
+
+
 }
 
 .footmenu-blog {
@@ -612,6 +663,11 @@ img.nav-logo {
 .policy-item a {
     margin: auto;
 }
+
+.policy-item a:visited {
+  color: #182F60;
+}
+
 .footer-right {
     display: inline-block;
     box-sizing: border-box;
