@@ -668,6 +668,10 @@ img.nav-logo {
   color: #182F60;
 }
 
+.policy-item a:hover {
+    border-bottom: 1px solid #182F60;
+}
+
 .footer-right {
     display: inline-block;
     box-sizing: border-box;
